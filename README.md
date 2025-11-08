@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# 🧮 Calculadora React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma calculadora moderna desenvolvida em **React.js**, com interface estilizada utilizando **styled-components**.  
+O projeto implementa todas as operações matemáticas básicas e um design responsivo e elegante.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tecnologias Utilizadas
 
-### `npm start`
+- **React.js** – criação dos componentes e gerenciamento de estado com Hooks (`useState`)
+- **Styled-components** – estilização moderna com CSS-in-JS
+- **JavaScript (ES6+)**
+- **Node.js / NPM** – gerenciamento de dependências e scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Funcionalidades
 
-### `npm test`
+✅ Operações matemáticas básicas:
+- Adição (+)  
+- Subtração (-)  
+- Multiplicação (×)  
+- Divisão (÷)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Outras funções:
+- Limpar (C)  
+- Backspace (⌫)  
+- Ponto decimal (.)  
+- Exibição dinâmica no display  
+- Estilo visual moderno com efeitos de hover e glassmorphism  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Interface
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O layout foi redesenhado para oferecer uma **experiência moderna e intuitiva**, com:
+- Fundo em gradiente ou vidro translúcido (*glassmorphism*)  
+- Botões com sombra, transição suave e efeito de clique  
+- Display digital com tipografia monoespaçada  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧩 Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/
+│   ├── Button/
+│   │   ├── index.jsx
+│   │   └── styles.js
+│   ├── Input/
+│   │   ├── index.jsx
+│   │   └── styles.js
+├── App.js
+├── styles.js
+└── index.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🖥️ Executando o Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-## Learn More
+### 2️⃣ Instalar dependências
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3️⃣ Rodar o projeto
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A aplicação estará disponível em:  
+👉 [http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧠 Aprendizados
 
-### Analyzing the Bundle Size
+Durante o desenvolvimento deste projeto, foram aplicados conceitos fundamentais de:
+- **Componentização no React**
+- **Gerenciamento de estado com Hooks**
+- **Criação de interfaces reativas com styled-components**
+- **Boas práticas de organização de código**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📸 Prévia do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*(Adicione aqui uma imagem ou GIF da calculadora rodando)*  
+Exemplo:
+```
+![Calculadora React](./preview.png)
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👨‍💻 Autor
 
-### Deployment
+**Leomar Leandro**  
+Desenvolvedor .NET | React | Redes e Cibersegurança  
+🔗 [LinkedIn](https://www.linkedin.com/in/leomar-leandro)  
+🔗 [GitHub](https://github.com/Le)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT.  
+Sinta-se livre para usar e modificar!
