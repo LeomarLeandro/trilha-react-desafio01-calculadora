@@ -92,11 +92,9 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos fundamentais 
 
 ## 📸 Prévia do Projeto
 
-*(Adicione aqui uma imagem ou GIF da calculadora rodando)*  
-Exemplo:
-```
+
 ![Calculadora React](./preview.png)
-```
+
 
 ---
 
